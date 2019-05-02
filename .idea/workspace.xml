@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f23d0aa7-bc48-4888-9572-3c64c8f644b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/tests/test_elastic_collisions_1d.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_elastic_collisions_1d.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_elastic_collisions_2d.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_elastic_collisions_2d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycontest/simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycontest/simulation.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,16 +22,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_elastic_collisions_2d.py">
+        <entry file="file://$PROJECT_DIR$/pycontest/simulation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="113">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <element signature="e#355#499#0" expanded="true" />
-                <element signature="e#574#718#0" expanded="true" />
-                <element signature="e#799#994#0" expanded="true" />
-                <element signature="e#1030#1240#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#274#1619#0" expanded="true" />
+                <element signature="e#1695#2325#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,6 +53,8 @@
         <option value="$PROJECT_DIR$/pycontest/.travis.yml" />
         <option value="$PROJECT_DIR$/tests/test_elastic_collisions_1d.py" />
         <option value="$PROJECT_DIR$/tests/test_elastic_collisions_2d.py" />
+        <option value="$PROJECT_DIR$/solutions/travis.yml" />
+        <option value="$PROJECT_DIR$/pycontest/simulation.py" />
       </list>
     </option>
   </component>
@@ -237,17 +236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycontest/simulation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#1695#2325#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solutions/test_hypothesis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -321,13 +309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycontest/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/solutions/test_elastic_collisions_2d.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -352,6 +333,32 @@
             <element signature="e#574#718#0" expanded="true" />
             <element signature="e#799#994#0" expanded="true" />
             <element signature="e#1030#1240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solutions/travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycontest/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycontest/simulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#274#1619#0" expanded="true" />
+            <element signature="e#1695#2325#0" expanded="true" />
           </folding>
         </state>
       </provider>
