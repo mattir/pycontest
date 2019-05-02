@@ -7,8 +7,8 @@ from pycontest import simulation as sim2d
 from pycontest.utils import momentum, E_kin
 
 # hypothesis simple example
-@given(mass1=st.floats(min_value=.1, max_value=1e3),
-       mass2=st.floats(min_value=.1, max_value=1e3))
+@given(mass1  = st.floats(min_value=.1, max_value=1e3),
+       mass2  = st.floats(min_value=.1, max_value=1e3))
 def test_energy_hypothesis(mass1, mass2):
 
     # initial condition and simulation parameters
@@ -28,6 +28,6 @@ def test_energy_hypothesis(mass1, mass2):
     E_ini = E_kin(vel_0, mass)
     E_end = E_kin(vel, mass)
 
-    # print("testing for mass = {}. E_end = {}".format(mass, E_end)) # only works with -s flag when running pytest
+    print("testing for mass = {}. E_end = {}".format(mass, E_end))
 
     assert E_ini == E_end
