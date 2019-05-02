@@ -5,7 +5,7 @@ import numpy as np
 import pytest
 
 
-
+@pytest.mark.parametrize("dt", [0.5, 0.1])
 def test_simulation_1():
     # initial condition and simulation parameters
     domain = ([-2, 12], [0, 3])

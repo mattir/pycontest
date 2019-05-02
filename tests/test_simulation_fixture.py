@@ -13,7 +13,7 @@ def data(request):
     domain = ([-2, 12], [0, 3])
     dt = 0.5
     t_max = 6
-    loc_0 = np.array([[0, 1.5],[10, 1.5]])
+    loc_0 = np.array([[0, 1.5], [10, 1.5]])
     vel_0 = np.array([[1, 0], [-1, 0]])
     radius = 1
     mass = [1, 1]

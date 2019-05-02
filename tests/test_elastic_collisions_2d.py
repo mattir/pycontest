@@ -13,11 +13,8 @@ def test_collision_2d_1():
     assert (v1_f == [-2, 0]).all()
     assert (v2_f == [1, 0]).all()
 
-# you cannow do the same for y components
+# you can now do the same for y components
 def test_collision_2d_2():
     pass
 
 # you can also check the energy and momentum
-
-
-
